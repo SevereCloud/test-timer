@@ -52,7 +52,6 @@
 
   function toSecond(hms) {
     var a = hms.split(":");
-    console.log(a);
     if (a.length == 3) {
       a[0] = parseInt(a[0]);
       a[1] = parseInt(a[1]);
