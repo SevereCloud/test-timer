@@ -27,6 +27,8 @@
     display: flex;
     align-items: baseline;
     cursor: pointer;
+    width: 100%;
+    max-width: 384px;
   }
   .time {
     font-size: 50px;

@@ -67,11 +67,12 @@
 
 <style>
   .timers {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 24px;
+    display: flex;
     margin: 0 auto;
-    max-width: 860px;
+    max-width: 768px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .background{
     position: absolute;
